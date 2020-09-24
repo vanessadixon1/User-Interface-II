@@ -75,12 +75,39 @@ nav a:hover {
 }
 
 .title {
-    /* border:1px solid black; */
     width: 98%;
     padding: 1%;
-    /* margin:  0 2%; */
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     font-size: 1.5rem;
+}
+.middleSectionTop {
+    display:flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 1%;
+}
+
+.middleSectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5%;
+    font-size: 1.3rem;
+}
+
+.middleSectionText h3 {
+    padding: 1% 0;
+}
+
+.middleSectionText button {
+    width: 9%;
+}
+
+.middleSectionText p {
+    padding: 1% 0;
+    width: 40%;
+}
+
+img {
+    width: 20%;
 }
